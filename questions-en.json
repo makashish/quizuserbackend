@@ -1,0 +1,530 @@
+[
+  {
+    "id": 1,
+    "question": "Which planet is known as the Red Planet?",
+    "options": [
+      "Earth",
+      "Venus",
+      "Mars",
+      "Jupiter"
+    ],
+    "answer": "Mars"
+  },
+  {
+    "id": 2,
+    "question": "What is the largest mammal?",
+    "options": [
+      "Elephant",
+      "Blue Whale",
+      "Giraffe",
+      "Rhino"
+    ],
+    "answer": "Blue Whale"
+  },
+  {
+    "id": 3,
+    "question": "Which is the longest river in the world?",
+    "options": [
+      "Amazon",
+      "Ganga",
+      "Nile",
+      "Yangtze"
+    ],
+    "answer": "Nile"
+  },
+  {
+    "id": 4,
+    "question": "Which is the national bird of India?",
+    "options": [
+      "Peacock",
+      "Parrot",
+      "Swan",
+      "Crow"
+    ],
+    "answer": "Peacock"
+  },
+  {
+    "id": 5,
+    "question": "What is the capital of India?",
+    "options": [
+      "Delhi",
+      "Mumbai",
+      "Kolkata",
+      "Chennai"
+    ],
+    "answer": "Delhi"
+  },
+  {
+    "id": 6,
+    "question": "Which planet is known as the Red Planet?",
+    "options": [
+      "Earth",
+      "Venus",
+      "Mars",
+      "Jupiter"
+    ],
+    "answer": "Mars"
+  },
+  {
+    "id": 7,
+    "question": "What is the largest mammal?",
+    "options": [
+      "Elephant",
+      "Blue Whale",
+      "Giraffe",
+      "Rhino"
+    ],
+    "answer": "Blue Whale"
+  },
+  {
+    "id": 8,
+    "question": "Which is the longest river in the world?",
+    "options": [
+      "Amazon",
+      "Ganga",
+      "Nile",
+      "Yangtze"
+    ],
+    "answer": "Nile"
+  },
+  {
+    "id": 9,
+    "question": "Which is the national bird of India?",
+    "options": [
+      "Peacock",
+      "Parrot",
+      "Swan",
+      "Crow"
+    ],
+    "answer": "Peacock"
+  },
+  {
+    "id": 10,
+    "question": "What is the capital of India?",
+    "options": [
+      "Delhi",
+      "Mumbai",
+      "Kolkata",
+      "Chennai"
+    ],
+    "answer": "Delhi"
+  },
+  {
+    "id": 11,
+    "question": "Which planet is known as the Red Planet?",
+    "options": [
+      "Earth",
+      "Venus",
+      "Mars",
+      "Jupiter"
+    ],
+    "answer": "Mars"
+  },
+  {
+    "id": 12,
+    "question": "What is the largest mammal?",
+    "options": [
+      "Elephant",
+      "Blue Whale",
+      "Giraffe",
+      "Rhino"
+    ],
+    "answer": "Blue Whale"
+  },
+  {
+    "id": 13,
+    "question": "Which is the longest river in the world?",
+    "options": [
+      "Amazon",
+      "Ganga",
+      "Nile",
+      "Yangtze"
+    ],
+    "answer": "Nile"
+  },
+  {
+    "id": 14,
+    "question": "Which is the national bird of India?",
+    "options": [
+      "Peacock",
+      "Parrot",
+      "Swan",
+      "Crow"
+    ],
+    "answer": "Peacock"
+  },
+  {
+    "id": 15,
+    "question": "What is the capital of India?",
+    "options": [
+      "Delhi",
+      "Mumbai",
+      "Kolkata",
+      "Chennai"
+    ],
+    "answer": "Delhi"
+  },
+  {
+    "id": 16,
+    "question": "Which planet is known as the Red Planet?",
+    "options": [
+      "Earth",
+      "Venus",
+      "Mars",
+      "Jupiter"
+    ],
+    "answer": "Mars"
+  },
+  {
+    "id": 17,
+    "question": "What is the largest mammal?",
+    "options": [
+      "Elephant",
+      "Blue Whale",
+      "Giraffe",
+      "Rhino"
+    ],
+    "answer": "Blue Whale"
+  },
+  {
+    "id": 18,
+    "question": "Which is the longest river in the world?",
+    "options": [
+      "Amazon",
+      "Ganga",
+      "Nile",
+      "Yangtze"
+    ],
+    "answer": "Nile"
+  },
+  {
+    "id": 19,
+    "question": "Which is the national bird of India?",
+    "options": [
+      "Peacock",
+      "Parrot",
+      "Swan",
+      "Crow"
+    ],
+    "answer": "Peacock"
+  },
+  {
+    "id": 20,
+    "question": "What is the capital of India?",
+    "options": [
+      "Delhi",
+      "Mumbai",
+      "Kolkata",
+      "Chennai"
+    ],
+    "answer": "Delhi"
+  },
+  {
+    "id": 21,
+    "question": "Which planet is known as the Red Planet?",
+    "options": [
+      "Earth",
+      "Venus",
+      "Mars",
+      "Jupiter"
+    ],
+    "answer": "Mars"
+  },
+  {
+    "id": 22,
+    "question": "What is the largest mammal?",
+    "options": [
+      "Elephant",
+      "Blue Whale",
+      "Giraffe",
+      "Rhino"
+    ],
+    "answer": "Blue Whale"
+  },
+  {
+    "id": 23,
+    "question": "Which is the longest river in the world?",
+    "options": [
+      "Amazon",
+      "Ganga",
+      "Nile",
+      "Yangtze"
+    ],
+    "answer": "Nile"
+  },
+  {
+    "id": 24,
+    "question": "Which is the national bird of India?",
+    "options": [
+      "Peacock",
+      "Parrot",
+      "Swan",
+      "Crow"
+    ],
+    "answer": "Peacock"
+  },
+  {
+    "id": 25,
+    "question": "What is the capital of India?",
+    "options": [
+      "Delhi",
+      "Mumbai",
+      "Kolkata",
+      "Chennai"
+    ],
+    "answer": "Delhi"
+  },
+  {
+    "id": 26,
+    "question": "Which planet is known as the Red Planet?",
+    "options": [
+      "Earth",
+      "Venus",
+      "Mars",
+      "Jupiter"
+    ],
+    "answer": "Mars"
+  },
+  {
+    "id": 27,
+    "question": "What is the largest mammal?",
+    "options": [
+      "Elephant",
+      "Blue Whale",
+      "Giraffe",
+      "Rhino"
+    ],
+    "answer": "Blue Whale"
+  },
+  {
+    "id": 28,
+    "question": "Which is the longest river in the world?",
+    "options": [
+      "Amazon",
+      "Ganga",
+      "Nile",
+      "Yangtze"
+    ],
+    "answer": "Nile"
+  },
+  {
+    "id": 29,
+    "question": "Which is the national bird of India?",
+    "options": [
+      "Peacock",
+      "Parrot",
+      "Swan",
+      "Crow"
+    ],
+    "answer": "Peacock"
+  },
+  {
+    "id": 30,
+    "question": "What is the capital of India?",
+    "options": [
+      "Delhi",
+      "Mumbai",
+      "Kolkata",
+      "Chennai"
+    ],
+    "answer": "Delhi"
+  },
+  {
+    "id": 31,
+    "question": "Which planet is known as the Red Planet?",
+    "options": [
+      "Earth",
+      "Venus",
+      "Mars",
+      "Jupiter"
+    ],
+    "answer": "Mars"
+  },
+  {
+    "id": 32,
+    "question": "What is the largest mammal?",
+    "options": [
+      "Elephant",
+      "Blue Whale",
+      "Giraffe",
+      "Rhino"
+    ],
+    "answer": "Blue Whale"
+  },
+  {
+    "id": 33,
+    "question": "Which is the longest river in the world?",
+    "options": [
+      "Amazon",
+      "Ganga",
+      "Nile",
+      "Yangtze"
+    ],
+    "answer": "Nile"
+  },
+  {
+    "id": 34,
+    "question": "Which is the national bird of India?",
+    "options": [
+      "Peacock",
+      "Parrot",
+      "Swan",
+      "Crow"
+    ],
+    "answer": "Peacock"
+  },
+  {
+    "id": 35,
+    "question": "What is the capital of India?",
+    "options": [
+      "Delhi",
+      "Mumbai",
+      "Kolkata",
+      "Chennai"
+    ],
+    "answer": "Delhi"
+  },
+  {
+    "id": 36,
+    "question": "Which planet is known as the Red Planet?",
+    "options": [
+      "Earth",
+      "Venus",
+      "Mars",
+      "Jupiter"
+    ],
+    "answer": "Mars"
+  },
+  {
+    "id": 37,
+    "question": "What is the largest mammal?",
+    "options": [
+      "Elephant",
+      "Blue Whale",
+      "Giraffe",
+      "Rhino"
+    ],
+    "answer": "Blue Whale"
+  },
+  {
+    "id": 38,
+    "question": "Which is the longest river in the world?",
+    "options": [
+      "Amazon",
+      "Ganga",
+      "Nile",
+      "Yangtze"
+    ],
+    "answer": "Nile"
+  },
+  {
+    "id": 39,
+    "question": "Which is the national bird of India?",
+    "options": [
+      "Peacock",
+      "Parrot",
+      "Swan",
+      "Crow"
+    ],
+    "answer": "Peacock"
+  },
+  {
+    "id": 40,
+    "question": "What is the capital of India?",
+    "options": [
+      "Delhi",
+      "Mumbai",
+      "Kolkata",
+      "Chennai"
+    ],
+    "answer": "Delhi"
+  },
+  {
+    "id": 41,
+    "question": "Which planet is known as the Red Planet?",
+    "options": [
+      "Earth",
+      "Venus",
+      "Mars",
+      "Jupiter"
+    ],
+    "answer": "Mars"
+  },
+  {
+    "id": 42,
+    "question": "What is the largest mammal?",
+    "options": [
+      "Elephant",
+      "Blue Whale",
+      "Giraffe",
+      "Rhino"
+    ],
+    "answer": "Blue Whale"
+  },
+  {
+    "id": 43,
+    "question": "Which is the longest river in the world?",
+    "options": [
+      "Amazon",
+      "Ganga",
+      "Nile",
+      "Yangtze"
+    ],
+    "answer": "Nile"
+  },
+  {
+    "id": 44,
+    "question": "Which is the national bird of India?",
+    "options": [
+      "Peacock",
+      "Parrot",
+      "Swan",
+      "Crow"
+    ],
+    "answer": "Peacock"
+  },
+  {
+    "id": 45,
+    "question": "What is the capital of India?",
+    "options": [
+      "Delhi",
+      "Mumbai",
+      "Kolkata",
+      "Chennai"
+    ],
+    "answer": "Delhi"
+  },
+  {
+    "id": 46,
+    "question": "Which planet is known as the Red Planet?",
+    "options": [
+      "Earth",
+      "Venus",
+      "Mars",
+      "Jupiter"
+    ],
+    "answer": "Mars"
+  },
+  {
+    "id": 47,
+    "question": "What is the largest mammal?",
+    "options": [
+      "Elephant",
+      "Blue Whale",
+      "Giraffe",
+      "Rhino"
+    ],
+    "answer": "Blue Whale"
+  },
+  {
+    "id": 48,
+    "question": "Which is the longest river in the world?",
+    "options": [
+      "Amazon",
+      "Ganga",
+      "Nile",
+      "Yangtze"
+    ],
+    "answer": "Nile"
+  }
+]
