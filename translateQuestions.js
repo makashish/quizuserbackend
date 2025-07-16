@@ -4,56 +4,59 @@ const translate = require("google-translate-api-x");
 // 🌐 Languages to translate into
 const languages = ["hi", "bn", "ta", "te", "gu", "pa", "or", "ks"]; // Hindi, Bengali, Tamil, Telugu, etc.
 
-// 🔃 Translate function
-async function translateText(text, lang) {
-  try {
-    const res = await translate(text, { to: lang });
-    return res.text;
-  } catch (err) {
-    console.error(`❌ Error translating to ${lang}:`, err.message);
-    return text; // fallback to original
-  }
-}
+// ⏱ Delay function
+const delay = (ms) => new Promise((res) => setTimeout(res, ms));
 
-// 📦 Load original questions.json (must be English-only)
-const sourceFile = "questions-en.json"; // You must prepare this file
+// 📦 Load original questions
+const sourceFile = "questions-en.json"; // Your English-only file
 const targetFile = "questions-multilang.json";
 
 async function translateQuestions() {
   const raw = fs.readFileSync(sourceFile, "utf-8");
-  const questions = JSON.parse(raw);
+  const original = JSON.parse(raw);
+  const translated = [];
 
-  for (const q of questions) {
-    const qid = q.id;
+  for (const [index, q] of original.entries()) {
+    const entry = {
+      id: q.id,
+      question: { en: q.question },
+      options: { en: q.options },
+      answer: { en: q.answer }
+    };
 
-    // Translate question text
-    q.question = { en: q.question }; // convert original string to object
     for (const lang of languages) {
-      q.question[lang] = await translateText(q.question.en, lang);
-    }
+      try {
+        await delay(500); // Delay between language blocks
 
-    // Translate options
-    const originalOptions = q.options;
-    q.options = { en: originalOptions };
-    for (const lang of languages) {
-      const translatedOpts = [];
-      for (const opt of originalOptions) {
-        translatedOpts.push(await translateText(opt, lang));
+        // Translate question
+        const qTrans = await translate(q.question, { to: lang });
+        entry.question[lang] = qTrans.text;
+
+        // Translate options
+        const optTrans = await Promise.all(
+          q.options.map(async (opt) => {
+            await delay(300); // Delay per option
+            const res = await translate(opt, { to: lang });
+            return res.text;
+          })
+        );
+        entry.options[lang] = optTrans;
+
+        await delay(500); // Delay before answer
+        const ansTrans = await translate(q.answer, { to: lang });
+        entry.answer[lang] = ansTrans.text;
+
+      } catch (err) {
+        console.error(`❌ Error translating question ${q.id} to ${lang}:`, err.message);
       }
-      q.options[lang] = translatedOpts;
     }
 
-    // Translate answer
-    q.answer = { en: q.answer };
-    for (const lang of languages) {
-      q.answer[lang] = await translateText(q.answer.en, lang);
-    }
-
-    console.log(`✅ Translated Q${qid}`);
+    translated.push(entry);
+    console.log(`✅ Translated Q${index + 1}/${original.length}`);
   }
 
-  fs.writeFileSync(targetFile, JSON.stringify(questions, null, 2));
-  console.log(`\n🎉 Saved translated questions to ${targetFile}`);
+  fs.writeFileSync(targetFile, JSON.stringify(translated, null, 2));
+  console.log(`\n🎉 Translation complete. Saved to ${targetFile}`);
 }
 
 translateQuestions();
