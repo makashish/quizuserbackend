@@ -1,530 +1,497 @@
 [
   {
     "id": 1,
-    "question": "Which planet is known as the Red Planet?",
+    "question": "What is the square root of 144?",
     "options": [
-      "Earth",
-      "Venus",
-      "Mars",
-      "Jupiter"
+      "10",
+      "11",
+      "12",
+      "13"
     ],
-    "answer": "Mars"
+    "answer": "12"
   },
   {
     "id": 2,
-    "question": "What is the largest mammal?",
+    "question": "Solve: 15 - 7 + 4",
     "options": [
-      "Elephant",
-      "Blue Whale",
-      "Giraffe",
-      "Rhino"
+      "10",
+      "11",
+      "12",
+      "13"
     ],
-    "answer": "Blue Whale"
+    "answer": "12"
   },
   {
     "id": 3,
-    "question": "Which is the longest river in the world?",
+    "question": "What is the derivative of x^2?",
     "options": [
-      "Amazon",
-      "Ganga",
-      "Nile",
-      "Yangtze"
+      "x",
+      "2x",
+      "x^2",
+      "2"
     ],
-    "answer": "Nile"
+    "answer": "2x"
   },
   {
     "id": 4,
-    "question": "Which is the national bird of India?",
+    "question": "What is the value of \u03c0?",
     "options": [
-      "Peacock",
-      "Parrot",
-      "Swan",
-      "Crow"
+      "3.14",
+      "2.17",
+      "1.62",
+      "4.20"
     ],
-    "answer": "Peacock"
+    "answer": "3.14"
   },
   {
     "id": 5,
-    "question": "What is the capital of India?",
+    "question": "What is 25% of 200?",
     "options": [
-      "Delhi",
-      "Mumbai",
-      "Kolkata",
-      "Chennai"
+      "25",
+      "50",
+      "75",
+      "100"
     ],
-    "answer": "Delhi"
+    "answer": "50"
   },
   {
     "id": 6,
-    "question": "Which planet is known as the Red Planet?",
+    "question": "If A=1, B=2, what is the value of D?",
     "options": [
-      "Earth",
-      "Venus",
-      "Mars",
-      "Jupiter"
+      "2",
+      "3",
+      "4",
+      "5"
     ],
-    "answer": "Mars"
+    "answer": "4"
   },
   {
     "id": 7,
-    "question": "What is the largest mammal?",
+    "question": "Find the odd one out: Apple, Banana, Carrot, Mango",
     "options": [
-      "Elephant",
-      "Blue Whale",
-      "Giraffe",
-      "Rhino"
+      "Apple",
+      "Banana",
+      "Carrot",
+      "Mango"
     ],
-    "answer": "Blue Whale"
+    "answer": "Carrot"
   },
   {
     "id": 8,
-    "question": "Which is the longest river in the world?",
+    "question": "Which number comes next in the series: 2, 4, 8, 16, ?",
     "options": [
-      "Amazon",
-      "Ganga",
-      "Nile",
-      "Yangtze"
+      "20",
+      "24",
+      "32",
+      "64"
     ],
-    "answer": "Nile"
+    "answer": "32"
   },
   {
     "id": 9,
-    "question": "Which is the national bird of India?",
+    "question": "Complete the series: A, C, E, G, ?",
     "options": [
-      "Peacock",
-      "Parrot",
-      "Swan",
-      "Crow"
+      "H",
+      "I",
+      "J",
+      "K"
     ],
-    "answer": "Peacock"
+    "answer": "I"
   },
   {
     "id": 10,
-    "question": "What is the capital of India?",
+    "question": "What comes next: 1, 1, 2, 3, 5, 8, ?",
     "options": [
-      "Delhi",
-      "Mumbai",
-      "Kolkata",
-      "Chennai"
+      "13",
+      "11",
+      "10",
+      "12"
     ],
-    "answer": "Delhi"
+    "answer": "13"
   },
   {
     "id": 11,
-    "question": "Which planet is known as the Red Planet?",
+    "question": "What is the speed of light?",
     "options": [
-      "Earth",
-      "Venus",
-      "Mars",
-      "Jupiter"
+      "3x10^8 m/s",
+      "5x10^6 m/s",
+      "1x10^3 m/s",
+      "9x10^5 m/s"
     ],
-    "answer": "Mars"
+    "answer": "3x10^8 m/s"
   },
   {
     "id": 12,
-    "question": "What is the largest mammal?",
+    "question": "Who gave the laws of motion?",
     "options": [
-      "Elephant",
-      "Blue Whale",
-      "Giraffe",
-      "Rhino"
+      "Einstein",
+      "Newton",
+      "Tesla",
+      "Faraday"
     ],
-    "answer": "Blue Whale"
+    "answer": "Newton"
   },
   {
     "id": 13,
-    "question": "Which is the longest river in the world?",
+    "question": "What is the unit of Force?",
     "options": [
-      "Amazon",
-      "Ganga",
-      "Nile",
-      "Yangtze"
+      "Joule",
+      "Watt",
+      "Newton",
+      "Pascal"
     ],
-    "answer": "Nile"
+    "answer": "Newton"
   },
   {
     "id": 14,
-    "question": "Which is the national bird of India?",
+    "question": "Which mirror is used in vehicles?",
     "options": [
-      "Peacock",
-      "Parrot",
-      "Swan",
-      "Crow"
+      "Concave",
+      "Convex",
+      "Plane",
+      "Parabolic"
     ],
-    "answer": "Peacock"
+    "answer": "Convex"
   },
   {
     "id": 15,
-    "question": "What is the capital of India?",
+    "question": "What is used to measure temperature?",
     "options": [
-      "Delhi",
-      "Mumbai",
-      "Kolkata",
-      "Chennai"
+      "Thermometer",
+      "Barometer",
+      "Hygrometer",
+      "Anemometer"
     ],
-    "answer": "Delhi"
+    "answer": "Thermometer"
   },
   {
     "id": 16,
-    "question": "Which planet is known as the Red Planet?",
+    "question": "What is H2O?",
     "options": [
-      "Earth",
-      "Venus",
-      "Mars",
-      "Jupiter"
+      "Hydrogen Peroxide",
+      "Water",
+      "Salt",
+      "Oxygen"
     ],
-    "answer": "Mars"
+    "answer": "Water"
   },
   {
     "id": 17,
-    "question": "What is the largest mammal?",
+    "question": "Atomic number of Oxygen?",
     "options": [
-      "Elephant",
-      "Blue Whale",
-      "Giraffe",
-      "Rhino"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "answer": "Blue Whale"
+    "answer": "8"
   },
   {
     "id": 18,
-    "question": "Which is the longest river in the world?",
+    "question": "Which gas is used in balloons?",
     "options": [
-      "Amazon",
-      "Ganga",
-      "Nile",
-      "Yangtze"
+      "Oxygen",
+      "Helium",
+      "Nitrogen",
+      "Hydrogen"
     ],
-    "answer": "Nile"
+    "answer": "Helium"
   },
   {
     "id": 19,
-    "question": "Which is the national bird of India?",
+    "question": "What is the pH of pure water?",
     "options": [
-      "Peacock",
-      "Parrot",
-      "Swan",
-      "Crow"
+      "5",
+      "6",
+      "7",
+      "8"
     ],
-    "answer": "Peacock"
+    "answer": "7"
   },
   {
     "id": 20,
-    "question": "What is the capital of India?",
+    "question": "Chemical symbol of Sodium?",
     "options": [
-      "Delhi",
-      "Mumbai",
-      "Kolkata",
-      "Chennai"
+      "S",
+      "Na",
+      "N",
+      "So"
     ],
-    "answer": "Delhi"
+    "answer": "Na"
   },
   {
     "id": 21,
-    "question": "Which planet is known as the Red Planet?",
+    "question": "Human heart has how many chambers?",
     "options": [
-      "Earth",
-      "Venus",
-      "Mars",
-      "Jupiter"
+      "2",
+      "3",
+      "4",
+      "5"
     ],
-    "answer": "Mars"
+    "answer": "4"
   },
   {
     "id": 22,
-    "question": "What is the largest mammal?",
+    "question": "Which organ purifies blood?",
     "options": [
-      "Elephant",
-      "Blue Whale",
-      "Giraffe",
-      "Rhino"
+      "Heart",
+      "Kidney",
+      "Liver",
+      "Lungs"
     ],
-    "answer": "Blue Whale"
+    "answer": "Kidney"
   },
   {
     "id": 23,
-    "question": "Which is the longest river in the world?",
+    "question": "What is the unit of heredity?",
     "options": [
-      "Amazon",
-      "Ganga",
-      "Nile",
-      "Yangtze"
+      "DNA",
+      "Gene",
+      "Chromosome",
+      "Protein"
     ],
-    "answer": "Nile"
+    "answer": "Gene"
   },
   {
     "id": 24,
-    "question": "Which is the national bird of India?",
+    "question": "Which vitamin is obtained from sunlight?",
     "options": [
-      "Peacock",
-      "Parrot",
-      "Swan",
-      "Crow"
+      "A",
+      "B",
+      "C",
+      "D"
     ],
-    "answer": "Peacock"
+    "answer": "D"
   },
   {
     "id": 25,
-    "question": "What is the capital of India?",
+    "question": "How many bones in adult human body?",
     "options": [
-      "Delhi",
-      "Mumbai",
-      "Kolkata",
-      "Chennai"
+      "206",
+      "205",
+      "201",
+      "209"
     ],
-    "answer": "Delhi"
+    "answer": "206"
   },
   {
     "id": 26,
-    "question": "Which planet is known as the Red Planet?",
+    "question": "Which planet is closest to the Sun?",
     "options": [
       "Earth",
-      "Venus",
+      "Mercury",
       "Mars",
-      "Jupiter"
+      "Venus"
     ],
-    "answer": "Mars"
+    "answer": "Mercury"
   },
   {
     "id": 27,
-    "question": "What is the largest mammal?",
+    "question": "Which gas do plants absorb?",
     "options": [
-      "Elephant",
-      "Blue Whale",
-      "Giraffe",
-      "Rhino"
+      "Oxygen",
+      "Carbon Dioxide",
+      "Nitrogen",
+      "Hydrogen"
     ],
-    "answer": "Blue Whale"
+    "answer": "Carbon Dioxide"
   },
   {
     "id": 28,
-    "question": "Which is the longest river in the world?",
+    "question": "SI unit of energy?",
     "options": [
-      "Amazon",
-      "Ganga",
-      "Nile",
-      "Yangtze"
+      "Newton",
+      "Watt",
+      "Joule",
+      "Ampere"
     ],
-    "answer": "Nile"
+    "answer": "Joule"
   },
   {
     "id": 29,
-    "question": "Which is the national bird of India?",
+    "question": "Which organ produces insulin?",
     "options": [
-      "Peacock",
-      "Parrot",
-      "Swan",
-      "Crow"
+      "Liver",
+      "Pancreas",
+      "Kidney",
+      "Stomach"
     ],
-    "answer": "Peacock"
+    "answer": "Pancreas"
   },
   {
     "id": 30,
-    "question": "What is the capital of India?",
+    "question": "Full form of DNA?",
     "options": [
-      "Delhi",
-      "Mumbai",
-      "Kolkata",
-      "Chennai"
+      "Dynamic Acid",
+      "Deoxyribonucleic Acid",
+      "Diphosphonic Acid",
+      "Diacid Nucleic Acid"
     ],
-    "answer": "Delhi"
+    "answer": "Deoxyribonucleic Acid"
   },
   {
     "id": 31,
-    "question": "Which planet is known as the Red Planet?",
+    "question": "Who is the President of India (2025)?",
     "options": [
-      "Earth",
-      "Venus",
-      "Mars",
-      "Jupiter"
+      "Ram Nath Kovind",
+      "Droupadi Murmu",
+      "Narendra Modi",
+      "Venkaiah Naidu"
     ],
-    "answer": "Mars"
+    "answer": "Droupadi Murmu"
   },
   {
     "id": 32,
-    "question": "What is the largest mammal?",
+    "question": "Capital of Uttar Pradesh?",
     "options": [
-      "Elephant",
-      "Blue Whale",
-      "Giraffe",
-      "Rhino"
+      "Varanasi",
+      "Agra",
+      "Lucknow",
+      "Kanpur"
     ],
-    "answer": "Blue Whale"
+    "answer": "Lucknow"
   },
   {
     "id": 33,
-    "question": "Which is the longest river in the world?",
+    "question": "Leader of Rajya Sabha?",
     "options": [
-      "Amazon",
-      "Ganga",
-      "Nile",
-      "Yangtze"
+      "President",
+      "PM",
+      "Vice President",
+      "Speaker"
     ],
-    "answer": "Nile"
+    "answer": "Vice President"
   },
   {
     "id": 34,
-    "question": "Which is the national bird of India?",
+    "question": "Term of Lok Sabha?",
     "options": [
-      "Peacock",
-      "Parrot",
-      "Swan",
-      "Crow"
+      "4 Years",
+      "5 Years",
+      "6 Years",
+      "7 Years"
     ],
-    "answer": "Peacock"
+    "answer": "5 Years"
   },
   {
     "id": 35,
-    "question": "What is the capital of India?",
+    "question": "Who appoints Chief Minister?",
     "options": [
-      "Delhi",
-      "Mumbai",
-      "Kolkata",
-      "Chennai"
+      "President",
+      "PM",
+      "Governor",
+      "Speaker"
     ],
-    "answer": "Delhi"
+    "answer": "Governor"
   },
   {
     "id": 36,
-    "question": "Which planet is known as the Red Planet?",
+    "question": "RBI stands for?",
     "options": [
-      "Earth",
-      "Venus",
-      "Mars",
-      "Jupiter"
+      "Reserve Bank of India",
+      "Rural Bank of India",
+      "Revenue Board of India",
+      "Real Bank of India"
     ],
-    "answer": "Mars"
+    "answer": "Reserve Bank of India"
   },
   {
     "id": 37,
-    "question": "What is the largest mammal?",
+    "question": "First five-year plan started in?",
     "options": [
-      "Elephant",
-      "Blue Whale",
-      "Giraffe",
-      "Rhino"
+      "1950",
+      "1951",
+      "1952",
+      "1955"
     ],
-    "answer": "Blue Whale"
+    "answer": "1951"
   },
   {
     "id": 38,
-    "question": "Which is the longest river in the world?",
+    "question": "GDP stands for?",
     "options": [
-      "Amazon",
-      "Ganga",
-      "Nile",
-      "Yangtze"
+      "Gross Domestic Product",
+      "Gross Development Plan",
+      "Government Development Program",
+      "General Domestic Product"
     ],
-    "answer": "Nile"
+    "answer": "Gross Domestic Product"
   },
   {
     "id": 39,
-    "question": "Which is the national bird of India?",
+    "question": "Planning Commission replaced by?",
     "options": [
-      "Peacock",
-      "Parrot",
-      "Swan",
-      "Crow"
+      "Finance Commission",
+      "NITI Aayog",
+      "RBI",
+      "SEBI"
     ],
-    "answer": "Peacock"
+    "answer": "NITI Aayog"
   },
   {
     "id": 40,
-    "question": "What is the capital of India?",
+    "question": "Disinvestment means?",
     "options": [
-      "Delhi",
-      "Mumbai",
-      "Kolkata",
-      "Chennai"
+      "Increase in assets",
+      "Buying shares",
+      "Selling assets",
+      "Selling government stake"
     ],
-    "answer": "Delhi"
+    "answer": "Selling government stake"
   },
   {
     "id": 41,
-    "question": "Which planet is known as the Red Planet?",
+    "question": "When was Indian Constitution adopted?",
     "options": [
-      "Earth",
-      "Venus",
-      "Mars",
-      "Jupiter"
+      "1950",
+      "1947",
+      "1949",
+      "1951"
     ],
-    "answer": "Mars"
+    "answer": "1949"
   },
   {
     "id": 42,
-    "question": "What is the largest mammal?",
+    "question": "Total number of articles originally?",
     "options": [
-      "Elephant",
-      "Blue Whale",
-      "Giraffe",
-      "Rhino"
+      "395",
+      "396",
+      "397",
+      "398"
     ],
-    "answer": "Blue Whale"
+    "answer": "395"
   },
   {
     "id": 43,
-    "question": "Which is the longest river in the world?",
+    "question": "Who is the father of Indian Constitution?",
     "options": [
-      "Amazon",
-      "Ganga",
-      "Nile",
-      "Yangtze"
+      "Nehru",
+      "Gandhi",
+      "Ambedkar",
+      "Patel"
     ],
-    "answer": "Nile"
+    "answer": "Ambedkar"
   },
   {
     "id": 44,
-    "question": "Which is the national bird of India?",
+    "question": "Which article is about fundamental rights?",
     "options": [
-      "Peacock",
-      "Parrot",
-      "Swan",
-      "Crow"
+      "14-18",
+      "12-35",
+      "36-51",
+      "51A"
     ],
-    "answer": "Peacock"
+    "answer": "12-35"
   },
   {
     "id": 45,
-    "question": "What is the capital of India?",
+    "question": "Which part deals with Directive Principles?",
     "options": [
-      "Delhi",
-      "Mumbai",
-      "Kolkata",
-      "Chennai"
+      "Part I",
+      "Part II",
+      "Part III",
+      "Part IV"
     ],
-    "answer": "Delhi"
-  },
-  {
-    "id": 46,
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Earth",
-      "Venus",
-      "Mars",
-      "Jupiter"
-    ],
-    "answer": "Mars"
-  },
-  {
-    "id": 47,
-    "question": "What is the largest mammal?",
-    "options": [
-      "Elephant",
-      "Blue Whale",
-      "Giraffe",
-      "Rhino"
-    ],
-    "answer": "Blue Whale"
-  },
-  {
-    "id": 48,
-    "question": "Which is the longest river in the world?",
-    "options": [
-      "Amazon",
-      "Ganga",
-      "Nile",
-      "Yangtze"
-    ],
-    "answer": "Nile"
+    "answer": "Part IV"
   }
 ]
