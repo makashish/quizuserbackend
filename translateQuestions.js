@@ -2,7 +2,7 @@ const fs = require("fs");
 const translate = require("google-translate-api-x");
 
 // 🌐 Languages to translate into
-const languages = ["hi", "bn", "ta", "te", "gu", "pa", "or", "ks"]; // Hindi, Bengali, Tamil, Telugu, etc.
+const languages = ["hi", "bn", "ta", "te", "gu", "pa", "or", "as", "kn", "ml", "mr", "ne", "ur", "sa"]; // Hindi, Bengali, Tamil, Telugu, etc.
 
 // ⏱ Delay function
 const delay = (ms) => new Promise((res) => setTimeout(res, ms));
