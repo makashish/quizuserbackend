@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "subjectId": "Physics",
+    "subjectId": 1,
     "question": {
       "en": "Which country has recently developed the world’s first deep sea radar that can detect high-flying aircraft?",
       "hi": "किस देश ने हाल ही में दुनिया का पहला गहरे समुद्र का रडार विकसित किया है जो उच्च उड़ान वाले विमानों का पता लगा सकता है?",
@@ -20,7 +20,7 @@
   },
   {
     "id": 2,
-    "subjectId": "Physics",
+    "subjectId": 1,
     "question": {
       "en": "In which state Indiramma Atmiya Bharosa Scheme was recently launched?",
       "hi": "किस राज्य में हाल ही में इंदिरम्मा आत्मीय भरोसा योजना शुरू की गई थी?",
@@ -39,7 +39,7 @@
   },
   {
     "id": 3,
-    "subjectId": "Chemistry",
+    "subjectId": 2,
     "question": {
       "en": "Which state’s tableau won the first prize in the states / UTs category at the Republic Day Parade 2025?",
       "hi": "किस राज्य की टेबलो ने गणतंत्र दिवस परेड 2025 में राज्यों / केंद्र शासित प्रदेशों की श्रेणी में पहला पुरस्कार जीता?",
@@ -58,7 +58,7 @@
   },
   {
     "id": 4,
-    "subjectId": "Maths",
+    "subjectId": 3,
     "question": {
       "en": "Who inaugurated the Handloom conclave Manthan?",
       "hi": "हैंडलूम सम्मेलन मंथन का उद्घाटन किसने किया?",
@@ -77,7 +77,7 @@
   },
   {
     "id": 5,
-    "subjectId": "physics",
+    "subjectId": 2,
     "question": {
       "en": "How many children were awarded the Pradhan Mantri Rashtriya Bal Puraskar 2025?",
       "hi": "प्रधान मंत्री राष्ट्रीय बाल पुरस्कार 2025 कितने बच्चों को दिया गया?",
