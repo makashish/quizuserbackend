@@ -1,0 +1,34 @@
+[
+  {
+    "id": "physics",
+    "name": {
+      "en": "Physics",
+      "hi": "भौतिकी",
+      "pa": "ਭੌਤਿਕ ਵਿਗਿਆਨ"
+    }
+  },
+  {
+    "id": "chemistry",
+    "name": {
+      "en": "Chemistry",
+      "hi": "रसायन विज्ञान",
+      "pa": "ਰਸਾਇਣ ਵਿਗਿਆਨ"
+    }
+  },
+  {
+    "id": "maths",
+    "name": {
+      "en": "Mathematics",
+      "hi": "गणित",
+      "pa": "ਗਣਿਤ"
+    }
+  },
+  {
+    "id": "hindi",
+    "name": {
+      "en": "Hindi",
+      "hi": "हिंदी",
+      "pa": "ਹਿੰਦੀ"
+    }
+  }
+]
