@@ -22,7 +22,7 @@ const SubjectSchema = new mongoose.Schema({
 
 const QuestionSchema = new mongoose.Schema({
   id: Number,
-  subjectId: Number,       // Link question to a subject
+  subjectId: String,       // Link question to a subject
   question: Object,        // Can store language-based questions, e.g., { en: "Q?", hi: "प्रश्न?" }
   options: Object,         // Same structure: { en: ["a","b"], hi: ["अ","ब"] }
   answer: Object,          // Correct answer per language
@@ -47,13 +47,17 @@ app.get("/api/subjects", async (req, res) => {
 app.get("/api/questions/:subjectId", async (req, res) => {
   try {
     const { subjectId } = req.params;
-    const questions = await Question.find({ subjectId: Number(subjectId) }).sort({ id: 1 });
+
+    const questions = await Question
+      .find({ subjectId })   // 🔥 NO Number()
+      .sort({ id: 1 });
+
     res.json(questions);
   } catch (err) {
+    console.error(err);
     res.status(500).json({ error: "Failed to fetch questions" });
   }
 });
-
 // ✅ Start server
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
