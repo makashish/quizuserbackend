@@ -14,7 +14,7 @@ const QuestionSchema = new mongoose.Schema({
   id: Number,
 
   subjectId: {
-    type: Number,
+    type: String,
     required: true
   },
 
