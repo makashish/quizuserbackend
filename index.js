@@ -23,15 +23,15 @@ const SubjectSchema = new mongoose.Schema({
 const QuestionSchema = new mongoose.Schema({
   id: Number,
   subjectId: String,       // Link question to a subject
-  question: Object,        // Can store language-based questions, e.g., { en: "Q?", hi: "प्रश्न?" }
-  options: Object,         // Same structure: { en: ["a","b"], hi: ["अ","ब"] }
+  question: Object,        // { en: "Q?", hi: "प्रश्न?" }
+  options: Object,         // { en: ["a","b"], hi: ["अ","ब"] }
   answer: Object,          // Correct answer per language
 });
 
 const Subject = mongoose.model("Subject", SubjectSchema);
 const Question = mongoose.model("Question", QuestionSchema);
 
-// ✅ API endpoints
+// ✅ API Endpoints
 
 // Get all subjects
 app.get("/api/subjects", async (req, res) => {
@@ -39,25 +39,33 @@ app.get("/api/subjects", async (req, res) => {
     const subjects = await Subject.find().sort({ id: 1 });
     res.json(subjects);
   } catch (err) {
+    console.error(err);
     res.status(500).json({ error: "Failed to fetch subjects" });
   }
 });
 
-// Get questions by subject
-app.get("/api/questions/:subjectId", async (req, res) => {
+// Get questions by subjectId + language
+app.get("/api/questions/:subjectId/:language", async (req, res) => {
   try {
-    const { subjectId } = req.params;
+    const { subjectId, language } = req.params;
 
-    const questions = await Question
-      .find({ subjectId })   // 🔥 NO Number()
-      .sort({ id: 1 });
+    const questions = await Question.find({ subjectId }).sort({ id: 1 });
 
-    res.json(questions);
+    // Map language-specific data
+    const formatted = questions.map(q => ({
+      id: q.id,
+      question: q.question[language],
+      options: q.options[language],
+      answer: q.answer[language]
+    }));
+
+    res.json(formatted);
   } catch (err) {
     console.error(err);
     res.status(500).json({ error: "Failed to fetch questions" });
   }
 });
+
 // ✅ Start server
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
